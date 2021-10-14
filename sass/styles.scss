@@ -1,0 +1,15 @@
+// initial variables
+@import './core/color.scss';
+@import './core/fonts.scss';
+
+// reset styles
+@import './core/scroll.scss';
+@import './core/reset.scss';
+
+// application modules
+@import './modules/common.scss';
+@import './modules/main.scss';
+@import './modules/header.scss';
+@import './modules/footer.scss';
+@import './modules/footer.scss';
+@import './modules/home.scss';

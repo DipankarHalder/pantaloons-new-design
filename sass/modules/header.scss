@@ -1,0 +1,68 @@
+.app-cover-header{
+  @extend .app-full-content;
+  background: $tgreen;
+  padding: 18px 0px;
+  .app-header{
+    display: flex;
+    place: {
+      content: space-between;
+      items: center;
+    }
+    .app-logo, 
+    .app-navigation, 
+    .app-shot-info{
+      float: left;
+    }
+    .app-logo{
+      float: left;
+      width: 210px;
+    }
+    .app-navigation{
+      ul{
+        display: flex;
+        li{
+          margin: 0px 20px;
+          a{
+            float: left;
+            font-size: 16px;
+            color: $white;
+            // text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .app-shot-info{
+      ul{
+        display: flex;
+        li{
+          margin: 0px 10px;
+          &:first-child{
+            margin-left: 0px;
+          }
+          &:last-child{
+            margin-right: 0px;
+          }
+          span{
+            float: left;
+            width: 22px;
+            height: 22px;
+            svg{
+              float: left;
+              width: 22px;
+              height: 22px;
+              path{
+                fill: $white;
+                &[fill="none"]{
+                  fill: none;
+                }
+              }
+              circle{
+                fill: $white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

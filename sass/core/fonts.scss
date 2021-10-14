@@ -1,0 +1,13 @@
+@font-face { 
+  font-family: $font; 
+  font-weight: $reg; 
+  src: url("../font/rg.woff2") format("woff2"), 
+       url("../font/rg.woff") format("woff"); 
+}
+
+@font-face { 
+  font-family: $font; 
+  font-weight: $bold; 
+  src: url("../font/bd.woff2") format("woff2"), 
+       url("../font/bd.woff") format("woff"); 
+}
